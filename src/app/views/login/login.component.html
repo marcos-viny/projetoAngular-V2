@@ -1,0 +1,33 @@
+<div class="grid container-box">
+    <div class="col-10 sm:col-6 md:col-4">
+        <p-card>
+            <div class="grid">
+                <div class="col-12 text-center">
+                    <i class="fas fa-car fa-4x car-icon"></i>
+                    <h2>MarcosCar</h2>
+                </div>
+                <div class="col-12">
+                    <label for="">Usuario</label>
+                    <input [(ngModel)]="requestLogin.login" class="col-12" type="email" pInputText />
+                </div>
+                <div class="col-12">
+                    <label for="">Senha</label>
+                    <input [(ngModel)]="requestLogin.password" class="col-12" type="password" pInputText />
+                </div>
+                <div class="col-12">
+                    <button (click)="doLogin()" class="col-12" pButton type="button" label="Entar"></button>
+                </div>
+            </div>
+        </p-card>
+    </div>
+</div>
+
+
+<!-- <div class="grid teste">
+    <div class="col-12 md:col-6 lg:col-3">
+        <p-card>
+            <div>{{ title }}</div>
+        </p-card>
+    </div>
+
+</div> -->

@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url("./assets/carro-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+$background-color:#252525 !important;
+$font-color:#ffff !important;
+.p-card {
+    background-color: $background-color;
+    color: $font-color;
+    opacity: 0.95;
+}
+
+.text-center {
+    text-align: center;
+}
